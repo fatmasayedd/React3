@@ -1,0 +1,24 @@
+.sk{
+color: white;
+background-color: rgb(16, 15, 15);
+border-radius: 40px;
+padding: 40px 100px;
+position: absolute;
+margin-top:-650px;
+left: 8%;
+width: 80vw ;
+padding-bottom: 40px;
+text-align: center;
+}
+.sk h2{font-size: 50px;}
+.sk p{font-size: 20px;}
+.met1,.met2,.met3,.met4{
+margin-top:40px !important;
+width:95%;
+height: 300px;
+}
+.sk p{margin-top: 15px;}
+.met1 img,.met2 img,.met3 img,.met4 img{
+width: 100%;
+height: 60%;
+}

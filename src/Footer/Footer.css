@@ -1,0 +1,24 @@
+.foot{
+    width: 100%;
+    overflow: auto;
+    padding-top: 280px;
+    background: -webkit-radial-gradient(10% 100%, circle ,   rgb(52, 16, 52) , rgb(0, 0, 0), rgb(48, 23, 48)) ;
+}
+.con2{
+width: 85%;
+margin: auto !important;
+}
+.wo{
+overflow: auto;
+height: 140px;
+float: right;
+}
+.face,.in,.insta{
+display: inline-block;
+margin-top: 10px;}
+.m{
+font-size: calc(0.85rem + 0.15vw);
+color: rgba(255, 255, 255, 0.636);
+margin-top: 10px;
+}
+

@@ -1,0 +1,65 @@
+.na{
+background-color: rgb(28, 27, 27);
+overflow: auto;
+}
+.face ,.in,.insta{
+border-radius: 50%;
+background-color: rgba(0, 0, 0, 0.183);
+width: 60px;
+height: 60px;
+position: relative;
+border: 1px solid white;
+cursor: pointer;
+}
+.face:hover,.in:hover,.insta:hover{background-color: white;}
+.face a ,.in a,.insta a{
+position: absolute;
+font-size: 10px;
+margin: 15px 0px 0px 15px;
+}
+.insta{margin-right: 15px;}
+.lets{
+position: relative;
+padding: 15px 30px !important;
+background-color: rgba(0, 0, 0, 0.039);
+border: 1px solid white;
+font-weight: 500;
+width: 250px;
+height: 80px;
+font-size: 30px;
+}
+.lets::after{
+position: absolute;
+content: "";
+width: 0%;
+height: 100%;
+top: 0;
+left: 0;
+background-color: rgb(255, 255, 255);
+transition: 0.5s;
+} 
+.h{
+width: 85%;
+margin: auto !important;
+}
+.lets:hover::after{
+width: 100%;
+height: 100%;
+}
+.co{
+position: absolute;
+z-index: 15;
+color: rgb(255, 255, 255); 
+}
+.co:hover{color: black;}
+.logo{
+font-weight: bold;
+color: white !important;
+font-size: 45px !important;
+}
+.icon3{
+color: rgb(255, 255, 255);
+font-size: 25px;}
+.face:hover .icon3 ,.in:hover .icon3 ,.insta:hover .icon3{ color: black;}
+.lin{font-size: 30px;}
+.word1,.word2,.word3,.word4{display: flex;}

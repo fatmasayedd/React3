@@ -1,0 +1,65 @@
+.se{
+width: 100%;
+background: url(../image/banner-bg.png) center no-repeat fixed;
+background-size: cover;
+color:white;
+padding-bottom:200px;
+}
+.conte{
+margin: auto !important;
+width: 85%;
+overflow: auto;
+padding-top: 100px;
+}
+.mean-big {margin: 100px 0px 20px 0px;}
+.mean-big h1,.mean-big p,.letx{width:80%;}
+.mean-big ,.ima{float: left;}
+.mean-big h1{
+font-size: calc(2.5rem + 1.5vw);
+margin: 50px 0px;
+font-weight: bold;
+}
+.mean-big p{
+color: rgba(255, 255, 255, 0.746);
+font-size: 20px;}
+.mean{
+padding: 9px;
+width: 70%;
+border: 1px solid white;
+background: -webkit-linear-gradient(left , rgb(81, 35, 81) ,rgb(17, 17, 74),rgb(10, 10, 89));
+}
+.ima img{
+width:100%;
+height:90%;
+animation-name: hod;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+animation-duration: 5s;
+padding-top: 50px;
+}
+@keyframes hod{
+0%{
+transform: translatey(0px);
+top: 0;
+left: 0;
+}
+50%{
+transform: translatey(30px);
+top: 0;
+left: 0;  
+}
+100%{
+transform: translatey(0px);
+top: 0;
+left: 0; 
+}   
+}
+.letx,.letx:hover{
+font-size: 30px;
+color: white;
+
+}
+.letx:hover .bs{
+margin-left: 10px;
+transition: 0.25s;
+}

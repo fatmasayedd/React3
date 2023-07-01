@@ -1,0 +1,32 @@
+.big{
+background: -webkit-radial-gradient(10% 100%, circle ,  rgb(52, 17, 52) , rgb(12, 7, 34) , rgb(0, 0, 0) ) ;
+width: 100%;
+padding-bottom: 150px;
+}
+.con1{width: 80%;}
+.so{
+width:50%;
+padding: 10px;
+border-radius: 15px;
+}
+textarea{
+border-radius: 15px;
+width: 100%;
+height: 250px;
+padding: 20px;  
+}
+.soaa{
+width: 100%;
+height: 60px;
+border-radius: 15px !important;
+}
+button a{
+font-size: 25px;
+font-weight: bold;   
+}
+.imz2,.imz{margin-top: 100px !important;}
+.ti{
+font-weight: bold;
+font-size: 55px;
+color: white;
+}

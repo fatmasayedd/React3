@@ -1,0 +1,37 @@
+.once{
+background-color: white;
+color: black;
+font-weight: bold;
+font-size: calc(1rem + 0.5vw);
+width: 85%;
+position: absolute;
+padding: 60px 15px;
+border-radius: 35px;
+display: flex;
+margin-top: -90px;
+left: 7%;
+}
+.soa{
+width:100%;
+padding: 30px;  
+border-radius: 35px;
+margin-top: 20px;
+}
+.sp1{width: 40%;}
+.sp2{
+position: relative;
+width: 60%;
+}
+.soaaa{
+background: -webkit-radial-gradient(10% 100%, circle ,  rgb(167, 26, 167) , rgb(27, 22, 94) , rgb(27, 22, 94)) ;
+border-radius: 35px;
+padding: 20px; 
+width:50%;
+position: fixed; 
+color: white;
+position: absolute;
+margin-top: 30px;
+left:50% ;
+font-size: calc(0.25rem + 0.25vw);
+}
+.soaaa a{font-size: 20px;}
